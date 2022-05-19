@@ -1,6 +1,8 @@
 #include "stats.h"
 
 struct Stats compute_statistics(const float* numberset, int setlength) {
+    int index=0;
+    float sum;
     struct Stats s;
     s.average = 0;
     s.min = 0;
